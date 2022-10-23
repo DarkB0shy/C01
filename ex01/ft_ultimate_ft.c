@@ -6,18 +6,11 @@
 /*   By: dcarassi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/20 12:42:30 by dcarassi          #+#    #+#             */
-/*   Updated: 2022/10/20 12:47:35 by dcarassi         ###   ########.fr       */
+/*   Updated: 2022/10/23 12:24:27 by dcarassi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 void	ft_ultimate_ft(int *********nbr)
 {
 	*********nbr = 42;
-}
-
-int	main(void)
-{
-	int********* ptr;
-	ft_ultimate_ft(ptr);
-	return(0);
 }

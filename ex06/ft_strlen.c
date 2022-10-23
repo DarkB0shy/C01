@@ -6,7 +6,7 @@
 /*   By: dcarassi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/20 18:23:11 by dcarassi          #+#    #+#             */
-/*   Updated: 2022/10/20 19:07:23 by dcarassi         ###   ########.fr       */
+/*   Updated: 2022/10/23 12:33:17 by dcarassi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,11 +19,5 @@ int	ft_strlen(char *str)
 	i = 0;
 	while (str[i] != '\0')
 		i++;
-	return(i);
-}
-
-int	main(void)
-{
-	char	c[] = "Henlo";
-	ft_strlen(c);	
+	return (i);
 }

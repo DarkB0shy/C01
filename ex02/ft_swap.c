@@ -6,7 +6,7 @@
 /*   By: dcarassi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/20 12:49:56 by dcarassi          #+#    #+#             */
-/*   Updated: 2022/10/20 13:00:17 by dcarassi         ###   ########.fr       */
+/*   Updated: 2022/10/23 12:25:50 by dcarassi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,17 +15,8 @@
 void	ft_swap(int *a, int *b)
 {
 	int	c;
-	
+
 	c = *a;
 	*a = *b;
 	*b = c;
-}
-
-int	main(void)
-{
-	int* aptr;
-	int* bptr;
-	ft_swap(aptr, bptr);
-	return(0);
-	
 }
