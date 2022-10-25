@@ -6,14 +6,13 @@
 /*   By: dcarassi <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/20 13:07:56 by dcarassi          #+#    #+#             */
-/*   Updated: 2022/10/25 13:15:12 by dcarassi         ###   ########.fr       */
+/*   Updated: 2022/10/25 17:07:44 by dcarassi         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
-#include <stdio.h>
 
-void	ft_ultimate_div(int *a, int *b)
+void	ft_ultimate_div_mod(int *a, int *b)
 {
 	int	c;
 
